@@ -14,6 +14,10 @@ import java.io.FileReader;
  */
 @Service
 public class Demo2_reflect {
+    public static void main(String[] args) {
+        Demo2_reflect a = new Demo2_reflect();
+        a.testReflect();
+    }
     public void testReflect() {
         //多态方式
         Juicer j = new Juicer();    //购买榨汁机
